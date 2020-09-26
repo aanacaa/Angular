@@ -8,6 +8,8 @@ class Negociacoes{
         
     }
     paraArray(): Negociacao[] {
+        console.log(this._negociacoes); 
+
         return [].concat(this._negociacoes);
     }
 }

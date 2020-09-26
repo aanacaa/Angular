@@ -7,6 +7,7 @@ class Negociacoes {
         this._negociacoes.push(negociacao);
     }
     paraArray() {
+        console.log(this._negociacoes);
         return [].concat(this._negociacoes);
     }
 }
